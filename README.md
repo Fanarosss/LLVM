@@ -4,7 +4,7 @@ This project is divided in two parts.<br>
 2. Convert MiniJava code into the intermediate representation used by the LLVM compiler project.<br>
 <br>
 <ul>
-  <li><b>STMap.java</b> is all the methods and structures I used for the Symbol Tables.<br>
+  <li><b>STMap.java</b> contains all the methods and structures I used for the Symbol Tables.<br>
   <li><b>ScopeVisitor.java</b> and <b>TypeCheckVisitor.java</b> is the first two passes on the parse tree who perform the <b>Semantic Analysis</b>.<br>
   <li><b>LlvmVisitor.java</b> does one pass on the tree and generates the intermediate code.<br>
 </ul>
